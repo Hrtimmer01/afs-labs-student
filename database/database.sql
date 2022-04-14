@@ -1,4 +1,4 @@
---
+-- This is ANY comment 
 -- PostgreSQL database dump
 --
 
