@@ -20,9 +20,11 @@ spec:
     spec:
       containers:
       - envFrom:
+        - configMapRef:
+            name: feature-toggle
         - secretRef:
             name: db-secret
         name: app-deployment
-        image: harbor.dev.afsmtddso.com/htimmer-harbor-project/app:971c881-1c9aad8
+        image: harbor.dev.afsmtddso.com/htimmer-harbor-project/app:ae84a6e-4d2ac7b
         ports:
         - containerPort: 5000

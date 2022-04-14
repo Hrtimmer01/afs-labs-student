@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: harbor.dev.afsmtddso.com/htimmer-harbor-project/db:971c881-1c9aad8
+        image: harbor.dev.afsmtddso.com/htimmer-harbor-project/db:ae84a6e-ab2a974
         ports:
         - containerPort: 5432
